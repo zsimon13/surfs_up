@@ -3,7 +3,7 @@
 ## Overview of Analysis
 The purpose of this analysis was to review weather data for an investor to determine if opening up a Surf n' Shake (ice cream and surf shop) would be a smart decision. The weather data that was focused on was the temperature statistics for the months of June and December in Oahu, Hawaii. 
 
-The data was analyzed using SQLite in Jupyter Notebook, using SQLAlchemy to connect the SQLite to JN.
+The data was analyzed using SQLite in Jupyter Notebook, using SQLAlchemy to connect the SQLite database to JN.
 
 ## Results 
 **June Stats**
@@ -33,3 +33,5 @@ Additonal queries I would run would be the preciptiaion statisitcs for June and 
 
 ### December Precip
 ![Dec_precip](https://user-images.githubusercontent.com/102814578/175194151-d786e08a-8d4c-4847-826b-239f52d9dd1c.png)
+
+The average rain for the month of June was 0.14" while December saw an average of 0.22". The most rain June experienced in a day was 4.43" while December saw a maximum of 6.42" in a day. Given that neither month saw rain every day (as one might expect) the amount of rain either month saw did not differ by a substatial margin, nor did they experience unreasonable amounts of rain through the month. It would be a safe to say the rain should not play a large role in bringing in customers. The investor only requested data from June and December, however including data from March and September would help create a much more clear picture.
